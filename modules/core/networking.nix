@@ -1,4 +1,4 @@
-{ ... }:
+{ config, pkgs, ... }:
 
 {
   networking.networkmanager.enable = true;
@@ -7,6 +7,10 @@
     enable = true;
     trustedInterfaces = [ "tailscale0" ];
   };
+
+  environment.systemPackages = with pkgs; [
+    dino
+  ];
 
   services.tailscale.enable = true;
  # networking.firewall.allowedTCPPorts = [ 64738 ];
