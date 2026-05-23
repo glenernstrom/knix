@@ -54,6 +54,20 @@
           ./home
          ];
        };
+      catharus = nixpkgs.lib.nixosSystem {
+         inherit system;
+         modules = [
+           commonNixpkgs 
+           ./hosts/catharus
+           ./roles/desktop.nix
+           ./modules/core
+           ./modules/services
+           ./modules/desktop
+           home-manager.nixosModules.home-manager
+           commonHM
+          ./home
+         ];
+       };
      };
    };
  }
