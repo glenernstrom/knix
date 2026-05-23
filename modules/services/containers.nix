@@ -3,10 +3,6 @@
 {
   services.flatpak.enable = true;
 
-  virtualisation.podman = {
-    enable = true;
-    dockerCompat = true;
-
   virtualisation.docker.enable = true;
   virtualisation.oci-containers.backend = "docker";
 
