@@ -14,6 +14,7 @@
   environment.systemPackages = with pkgs; [
     curl
     wget
+    unzip
     adwaita-icon-theme
     gnome-icon-theme
     hicolor-icon-theme
