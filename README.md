@@ -1,7 +1,7 @@
 # My KDE NixOS configuration
 
 ## The Apps:
-  - Productivity: ** LibreOffice, Super Productivity** 
+  - Productivity: __LibreOffice, Super Productivity__
   - PDF **Okular, Karp **
   - Writing Tools: ** Ghostwriter, Kile **
   - Development: ** Kate, Thony, RStudio**
