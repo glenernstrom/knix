@@ -1,12 +1,12 @@
  { config, pkgs, ... }:
 
   {
-    home.packages =  [
-      (pkgs.mumble.override { pulseSupport = true; })
-      pkgs.element-desktop
-      pkgs.slack
-      pkgs.zoom-us
-      pkgs.discord
+    home.packages =  with pkgs; [
+      mumble
+      element-desktop
+      slack
+      zoom-us
+      discord
     ]; 
 
   } 
