@@ -6,6 +6,12 @@
  # documentation.enable = true;
 
   nix.settings.download-buffer-size = 524288000;
+  
+  fileSystems = {
+    "/".options = [ "compress=zstd" ];
+    "/home".options = [ "compress=zstd" ];
+    "/nix".options = [ "compress=zstd" "noatime" ];
+  };
 
   programs.firefox.enable = true;
   programs.git.enable = true;

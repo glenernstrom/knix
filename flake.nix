@@ -46,6 +46,7 @@
       puma = nixpkgs.lib.nixosSystem {
          inherit system;
          modules = [
+           nix-flatpak.nixosModulues.nix-flatpak
            commonNixpkgs 
            ./hosts/puma
            ./roles/desktop.nix
@@ -60,6 +61,7 @@
       lynx = nixpkgs.lib.nixosSystem {
          inherit system;
          modules = [
+           nix-flatpak.nixosModules.nix-flatpak
            commonNixpkgs 
            ./hosts/lynx
            ./roles/laptop.nix
