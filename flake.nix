@@ -4,6 +4,7 @@
    inputs = {
     # nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
      nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
 
     home-manager = {
       # url = "github:nix-community/home-manager/release-26.05";
@@ -12,7 +13,7 @@
     };
   };
 
-   outputs = { self, nixpkgs, home-manager, ... }:
+   outputs = { self, nixpkgs, home-manager, nix-flatpak, ... }:
      let
        commonNixpkgs = {
          nixpkgs.config.allowUnfree = true;
@@ -30,6 +31,7 @@
       lutra = nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
+          nix-flatpak.nixosModules.nix-flatpak
           commonNixpkgs 
           ./hosts/lutra
           ./roles/desktop.nix

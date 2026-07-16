@@ -2,7 +2,7 @@
   imports = [
  #   ./gnome.nix
     ./kde.nix
- #   ./gaming.nix
+    ./gaming.nix
     ./fonts.nix
     ./printing.nix
   ];

@@ -9,8 +9,13 @@
 
   programs.firefox.enable = true;
   programs.git.enable = true;
+  programs.fish = {
+    enable = true;
+  };
+  
+  # Enable flatpaks
+  services.flatpak.enable = true;
 
-    
   environment.systemPackages = with pkgs; [
     curl
     wget
@@ -19,6 +24,9 @@
     gnome-icon-theme
     hicolor-icon-theme
   ];
+
  # environment.localBinInPath = true;
   services.dbus.enable = true;
+
+
 } 

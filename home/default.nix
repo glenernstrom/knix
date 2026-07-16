@@ -17,6 +17,15 @@
 
   home.stateVersion = "26.05";
   programs.home-manager.enable = true;
+  
+  programs.bash = {
+    enable = true;
+    initExtra = ''
+    if [ -n "$IN_NIX_SHELL" ] || [ -n "$NIX_BUILD_TOP" ]; then
+      export PS1="(nix) $PS1"
+    fi
+  '';
+   };
 
- };
+  };
 }
