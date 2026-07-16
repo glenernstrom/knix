@@ -72,26 +72,8 @@
       joplin-desktop
 
       # Management
-
-      # Declaratively installed as flatpak (until a nixpkg is available):
-      # Swifty Notes
-      # Reinschrift
-      # GNOME Calendar (last tried GNOME calendar nixpkg in KDE wasn't wolrking)
-      # Using Google Calendar for personal Calendar and Contacts
-      # I tried Nextcloud homelab server, but I don't trust myself to maintain
-      # critical data like this on second-hand hardware with my own infrastructue.
-      # ProtonMail has calendar and contacts, but I don't like the interface and
-      # I would rather use local open-source apps on the frontend.
-      # Kontacts is rather ugly. It has the KDE "look and feel" but 
-      # it doesn't "feel" pleasant to use." I may just end up using Thunderbird
-      # for personal email and proton for extra private communications.
-      # All work email, calendar, contacts is UVM's Outlook
-      # Experimenting with Reinschift and super-productivity, but in general my
-      # primary taskmanager is my paper binder.
       super-productivity
       thunderbird
-
-      
      ]; 
 
   }
