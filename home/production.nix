@@ -18,6 +18,7 @@
     [
       # Stats
       R-with-packages
+      kdePackages.cantor
 
       # Graphics
       inkscape
@@ -70,8 +71,9 @@
 
       # Notes
       joplin-desktop
+      logseq
 
-      # Management
+      # Project Management
       super-productivity
       thunderbird
      ]; 

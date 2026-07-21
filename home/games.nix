@@ -7,6 +7,8 @@
   kdePackages.bomber
   kdePackages.kapman
   kdePackages.ksudoku
+  lutris
+  gnome-sudoku
  ];
 
 }

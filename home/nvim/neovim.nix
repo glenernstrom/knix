@@ -9,11 +9,18 @@
       withRuby = false;
       plugins = with pkgs.vimPlugins; [
         catppuccin-nvim
-        #tokyonight-nvim
+      # tokyonight-nvim
         lualine-nvim
         plenary-nvim
         nvim-web-devicons
-       # nvim-treesitter
+        nvim-lint
+        nvim-lspconfig
+      # mason-nvim
+      # nvim-treesitter
+      ];
+
+      extraPackages = with pkgs; [
+        ruff
       ];
    };
 
