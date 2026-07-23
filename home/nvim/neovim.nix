@@ -1,6 +1,9 @@
   {config, pkgs, ... }:
 
   {
+    home.packages = with pkgs; [
+      ruff
+    ];
 
     programs.neovim = {
       enable = true;

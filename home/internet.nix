@@ -9,6 +9,8 @@
       discord
       teams-for-linux
       protonmail-bridge
+      microsoft-edge
+      google-chrome
     ]; 
 
   } 
