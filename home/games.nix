@@ -3,10 +3,10 @@
 {
 
  home.packages = with pkgs; [
-  kdePackages.kpat
-  kdePackages.bomber
-  kdePackages.kapman
-  kdePackages.ksudoku
+#  kdePackages.kpat
+#  kdePackages.bomber
+#  kdePackages.kapman
+#  kdePackages.ksudoku
   lutris
   gnome-sudoku
  ];

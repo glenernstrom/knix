@@ -4,13 +4,14 @@
     home.packages = with pkgs; [
       kdePackages.kdenlive
       obs-studio
-      audacity
-      vlc
-      haruna
-      media-downloader
-      kdePackages.kasts
-      kdePackages.akregator
-      kdePackages.arianna
+      gnome-podcasts
+ #     audacity
+ #     vlc
+#      haruna
+#      media-downloader
+#      kdePackages.kasts
+#      kdePackages.akregator
+#      kdePackages.arianna
       shortwave
     ];
   }

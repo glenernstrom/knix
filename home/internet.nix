@@ -4,13 +4,13 @@
     home.packages =  with pkgs; [
       mumble
       element-desktop
-      slack
-      zoom-us
-      discord
-      teams-for-linux
-      protonmail-bridge
-      microsoft-edge
-      google-chrome
+ #     slack
+ #     zoom-us
+ #     discord
+ #     teams-for-linux
+ #     protonmail-bridge
+ #     microsoft-edge
+ #     google-chrome
     ]; 
 
   } 

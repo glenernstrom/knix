@@ -4,7 +4,7 @@
     home.packages = with pkgs;
       let
         R-with-packages = rWrapper.override { 
-          packages = with rPackages; [
+           packages = with rPackages; [
             tidyverse
             DescTools
             lubridate
@@ -18,7 +18,7 @@
     [
       # Stats
       R-with-packages
-      kdePackages.cantor
+     # kdePackages.cantor
 
       # Graphics
       inkscape
@@ -36,13 +36,15 @@
       # Typesetting
       texliveFull
       pandoc
-      kile
+     # kile
+      texmaker
 
       # PDF management
-      karp
+      # karp
+      pdfarranger
 
       # Office
-      libreoffice-qt-fresh
+      libreoffice-fresh
       hunspell
       hunspellDicts.en_US
       hyphenDicts.en_US
@@ -57,25 +59,27 @@
       gst_all_1.gst-rtsp-server
 
       # Development
-      thonny
-      marksman
+    #  thonny
+    #  marksman
 
       # Markdown
-      kdePackages.ghostwriter
+      # kdePackages.ghostwriter
 
       # Database
       sqlite
 
       # Cloud
       dropbox
+      pcloud
 
       # Notes
       joplin-desktop
-      logseq
+   #   logseq
 
       # Project Management
       super-productivity
-      thunderbird
+    #  thunderbird
+      everdo
      ]; 
 
   }

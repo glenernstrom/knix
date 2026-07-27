@@ -4,8 +4,8 @@
     home.packages = with pkgs; [
       inkscape
       gimp
-      scribus
-      krita
+#      scribus
+#      krita
       xournalpp
       rnote
      ]; 
