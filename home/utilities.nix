@@ -11,10 +11,14 @@
    #   kdePackages.skanpage
    #   kdePackages.yakuake
    #   kdePackages.kcolorpicker
+      impression 
       tesseract5
       pay-respects
       tree
       ghostty
+      gradia
+      blanket
+      deja-dup
       bitwarden-desktop
     ];
   }

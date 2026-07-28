@@ -20,14 +20,6 @@
       R-with-packages
      # kdePackages.cantor
 
-      # Graphics
-      inkscape
-      gimp
-      scribus
-      krita
-      xournalpp
-      rnote
-
       # Science Apps
       pymol
       nucleus
@@ -61,6 +53,7 @@
       # Development
     #  thonny
     #  marksman
+      bobby
 
       # Markdown
       # kdePackages.ghostwriter
@@ -77,8 +70,8 @@
    #   logseq
 
       # Project Management
-      super-productivity
-    #  thunderbird
+     # super-productivity
+      #  thunderbird
       everdo
      ]; 
 

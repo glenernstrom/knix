@@ -5,6 +5,10 @@
       kdePackages.kdenlive
       obs-studio
       gnome-podcasts
+      newsflash
+      cozy
+      foliate
+
  #     audacity
  #     vlc
 #      haruna

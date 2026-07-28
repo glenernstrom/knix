@@ -7,6 +7,9 @@
 #      scribus
 #      krita
       xournalpp
+      eyedropper
+      constrict
+      curtail
       rnote
      ]; 
 
